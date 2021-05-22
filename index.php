@@ -26,6 +26,7 @@
 
 	<body>
 		<?php
+		$onPage = 'header';
 		include_once('header.php')
 		?>
 
@@ -64,7 +65,7 @@
 							<video autoplay loop class="video-background">
 								<source src="Lawyer.mp4" type="video/mp4">
 							</video>
-							</div>s
+							</div>
 							<div class="col-md-4">
 								<div class="hero-content">
 									<h1 class="hero-title" style="font-size:40px;"><font face="Trebuchet MS">Justice In Words</font></h1>

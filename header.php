@@ -14,11 +14,11 @@
 					<nav class="main-navigation">
 						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
 						<ul class="menu">
-							<li class="menu-item"><a href="index.php">Home</a></li>
+							<li class="menu-item <?php if ($onPage == 'index') echo 'active'; ?>"><a href="index.php">Home</a></li>
 							
-							<li class="menu-item"><a href="attorney.php">Attorney</a></li>
-							<li class="menu-item"><a href="service.php">Service</a></li>
-							<li class="menu-item"><a href="contact.php">Contact</a></li>
+							<li class="menu-item <?php if ($onPage == 'attorney') echo 'active'; ?>"><a href="attorney.php">Attorney</a></li>
+							<li class="menu-item <?php if ($onPage == 'service') echo 'active'; ?>"><a href="service.php">Service</a></li>
+							<li class="menu-item <?php if ($onPage == 'contact') echo 'active'; ?>"><a href="contact.php">Contact</a></li>
 						</ul>
 					</nav>
 					<nav class="mobile-navigation"></nav>
