@@ -24,10 +24,10 @@
 
 
 	<body>
-<?php
+	<?php
+		$onPage = 'service';
 		include_once('header.php')
 		?>
-
 		
 		<!--
 		<div id="site-content">

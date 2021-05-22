@@ -24,8 +24,9 @@
 
 
 	<body>
-		<?php
-		include_once('header.php');
+	<?php
+		$onPage = 'contact';
+		include_once('header.php')
 		?>
 		<!--<div id="site-content">
 			

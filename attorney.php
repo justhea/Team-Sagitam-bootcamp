@@ -25,8 +25,9 @@
 
 
 	<body>
-		<?php
-		include_once('header.php');
+	<?php
+		$onPage = 'attorney';
+		include_once('header.php')
 		?>
 		<!--
 		<div id="site-content">

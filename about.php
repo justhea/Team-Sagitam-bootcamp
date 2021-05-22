@@ -24,7 +24,8 @@
 
 
 	<body>
-		<?php
+	<?php
+		$onPage = 'about';
 		include_once('header.php')
 		?>
 
