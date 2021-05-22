@@ -26,6 +26,7 @@
 
 	<body>
 		<?php
+		$onPage = 'header';
 		include_once('header.php')
 		?>
 
