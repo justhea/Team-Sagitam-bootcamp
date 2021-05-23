@@ -1,31 +1,17 @@
+<?php
+$onPage = 'contact';
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<!--Changed -->
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
-		
-		<title>Lawyers | Contact</title>
-		
-		<!-- Loading third party fonts -->
-		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<link href="fonts/novecento-font/novecento-font.css" rel="stylesheet" >
+	<?php 
+include_once('font.php')?>
 
-		<!-- Loading main css file -->
-		<link rel="stylesheet" href="style.css">
-		
-		<!--[if lt IE 9]>
-		<script src="js/ie-support/html5.js"></script>
-		<script src="js/ie-support/respond.js"></script>
-		<![endif]-->
-
-	</head>
+	
 
 
 	<body>
 	<?php
-		$onPage = 'contact';
 		include_once('header.php')
 		?>
 		<!--<div id="site-content">
