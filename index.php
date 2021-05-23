@@ -59,16 +59,15 @@
 
 			<main class="main-content">
 				<div class="hero">
-					<div class="container">
-						<div class="rows">
+				<video autoplay loop class="video-background">
+					<source src="Lawyer.mp4" type="video/mp4">
+				</video>
+					<div class="container">		
 							<div class="col-md-8">
-							<video autoplay loop class="video-background">
-								<source src="Lawyer.mp4" type="video/mp4">
-							</video>
 							</div>
 							<div class="col-md-4">
 								<div class="hero-content">
-									<h1 class="hero-title" style="font-size:40px;"><font face="Trebuchet MS">Justice In Words</font></h1>
+								<h1 class="hero-title" style="font-size:40px;"><font face="Trebuchet MS">Justice In Words</font></h1>
 									<p>W BENEDICTO LAW, JUSTICE IS WHAT WE CREATE EVERYDAY. </p>
 									<p>WITH DEEPER UNDERSTANDING, GET BETTER SOLUTIONS.</p>
 									<p>SIGN UP TODAY, ITS FREE!</p>
