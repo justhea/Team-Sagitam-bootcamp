@@ -3,7 +3,6 @@ $onPage = 'about';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <?php 
 include_once('font.php')?>
 
