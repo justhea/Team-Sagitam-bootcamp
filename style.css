@@ -25,12 +25,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 
 /* line 60 video*/
 .video-background {
-  position: relative;
-  right: 50%;
-  top: 20%;
+  position: absolute;
+  right: 3%;
+  top: 16%;
   width: auto;
   height: auto;
 }
+
+
 /* line 61, sass/libs/_normalize.scss */
 audio, canvas, video {
  display: inline-block; 
@@ -1083,12 +1085,14 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
    max-width: 100%; 
  }
 
-.hero .hero-content {
+ /* line 70 .hero-conetent */
+ .hero .hero-content {
   text-align: center;
   margin-top: 250px;
   margin-right: -100px;
   margin-left: -800px;
 }
+
 /* line 47, sass/layout/_content.scss */
 .hero .hero-title { 
   text-transform: uppercase; 
