@@ -4,11 +4,29 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 		
-		<title> <?php if ($onPage == 'attorney') echo 'Attorneys'; ?>
-		<?php if ($onPage == 'contact') echo 'Contact'; ?>
-		<?php if ($onPage == 'index') echo 'Homepage'; ?>
-		<?php if ($onPage == 'about') echo 'About'; ?>
-		<?php if ($onPage == 'service') echo 'Services'; ?>
+		<title> <?php 
+		switch ($onPage) {
+			case "attorney":
+				echo "Attorney";
+				break;
+			case "about":
+				echo "About";
+				break;
+			case "contact":
+				echo "Contact";
+				break;
+			case "index":
+				echo "Benedicto law office";
+				break;
+			case "service":
+				echo "Services";
+				break;
+			default:
+			 echo "No page found";
+			 break;
+		}
+		
+		?>
 		 </title>
 		<!--Icon for the lawfirm-->
 		<link rel="shortcut icon" href="dummy/download.png" type="image/x-icon">
