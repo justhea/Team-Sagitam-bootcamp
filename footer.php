@@ -8,7 +8,7 @@
 						<a href="#"><i class="fa fa-pinterest"></i></a>
 					</div>
 					<div class="copy">
-						<p>Copyright 2014 Company name. Designed by Themeezy. All rights reserved.</p>
+						<p>Copyright 2021 Benedicto Law Office</p>
 					</div>
 				</div>
 			</footer> <!-- .site-footer -->
