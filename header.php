@@ -18,7 +18,7 @@
 							
 							<li class="menu-item <?php if ($onPage == 'attorney') echo 'current-menu-item'; ?>"><a href="attorney.php">Attorney</a></li>
 							<li class="menu-item <?php if ($onPage == 'service') echo 'current-menu-item'; ?>"><a href="service.php">Service</a></li>
-							<li class="menu-item <?php if ($onPage == 'contact') echo 'current-menu-item'; ?>"><a href="contact.php">Contact</a></li>
+							<li class="menu-item <?php if ($onPage == 'sign_up') echo 'current-menu-item'; ?>"><a href="login/login.php">signup</a></li>
 						</ul>
 					</nav>
 					<nav class="mobile-navigation"></nav>

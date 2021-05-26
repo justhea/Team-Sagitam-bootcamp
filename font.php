@@ -18,8 +18,8 @@
 			case "index":
 				echo "Benedicto law office";
 				break;
-			case "service":
-				echo "Services";
+			case "sign_up":
+				echo "Sign Up";
 				break;
 			default:
 			 echo "No page found";
