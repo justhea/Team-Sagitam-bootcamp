@@ -12,8 +12,8 @@
 			case "about":
 				echo "About";
 				break;
-			case "contact":
-				echo "Contact";
+			case "service":
+				echo "Services";
 				break;
 			case "index":
 				echo "Benedicto law office";

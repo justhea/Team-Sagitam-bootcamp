@@ -63,7 +63,7 @@ include_once('font.php')?>
 									<p class="redtext" style="font-size:20px;">BENEDICTO LAW, JUSTICE IS WHAT WE CREATE EVERYDAY. </p>
 									<p class="redtext" style="font-size:20px;">WITH DEEPER UNDERSTANDING, GET BETTER SOLUTIONS.</p>
 									<p class="redtext" style="font-size:20px;">SIGN UP TODAY, ITS FREE!</p>
-									<a href="#" class="button">Learn more</a>
+									<a href="about.php" class="button">Learn more</a>
 								</div>
 							</div>
 						</div>
