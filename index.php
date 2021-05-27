@@ -49,11 +49,11 @@ include_once('font.php')?>
 
 			<main class="main-content">
 				<div class="hero">
-				
+				<!--
 				<video autoplay loop class="video-background">
 					<source src="Lawyer.mp4" type="video/mp4">
 				
-				</video>
+				</video>--> <!-- tanggalin ko muna for the meantime-->
 					<div class="container">		
 							<div class="col-md-8">
 							</div>
