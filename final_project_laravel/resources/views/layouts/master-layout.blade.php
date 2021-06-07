@@ -27,7 +27,7 @@
         <div id="site-content">
 			<header class="site-header">
 				<div class="container">
-					<a href="index.php" id="branding">
+					<a href="{{ route('home.index') }}" id="branding">
 						<img src="{{ asset('images/logo.png') }}" alt="Company Name" class="logo" width="100">
 						<div class="branding-copy">
 							<h1 class="site-title" style="font-size:60px;">Benedicto Law</h1>

@@ -8,6 +8,10 @@ class DashboardController extends Controller
 {
     public function dashboard()
     {
-        return view('dashboard.index');
+        $dashboardTitle = "Dashboard";
+        return view('dashboard.index', [
+            'dashboardTitle' => $dashboardTitle
+        ]
+    );
     }
 }
