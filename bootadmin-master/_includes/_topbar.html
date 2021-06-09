@@ -1,0 +1,168 @@
+{% assign current = page.url | downcase | split: '/' %}
+
+<!-- Main Menu -->
+<div class="topbar">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 hidden-xs">
+                <div class="logo">
+                    <a href="{{ site.baseurl }}/">
+                        <span class="logo-emblem"><img src="{{ site.baseurl }}/images/boot.png" alt="BA" /></span>
+                        <span class="logo-full">Bootadmin</span>
+                    </a>
+                </div>
+                <a href="#" class="menu-toggle wave-effect">
+                    <i class="feather icon-menu"></i>
+                </a>
+            </div>
+            <div class="col-md-7 text-right">
+                <ul>
+                    <!-- Profile Menu -->
+                    <li class="btn-group user-account">
+                        <a href="javascript:;" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="user-content">
+                                <div class="user-name">Andrew Gill</div>
+                                <div class="user-plan">BeeBack Free Tier</div>
+                            </div>
+                            <div class="avatar">
+                                <img src="{{ site.baseurl }}/images/demo/user.jpg" alt="profile" />
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="{{ site.baseurl }}/account/profile" class="animsition-link dropdown-item wave-effect"><i class="feather icon-user"></i> Profile</a></li>
+                            <li><a href="{{ site.baseurl }}/account/billing" class="animsition-link dropdown-item wave-effect"><i class="feather icon-dollar-sign"></i> Billing</a></li>
+                            <li><a href="{{ site.baseurl }}/account/settings" class="animsition-link dropdown-item wave-effect"><i class="feather icon-settings"></i> Settings</a></li>
+                            <li><a href="{{ site.baseurl }}/login" class="animsition-link dropdown-item wave-effect"><i class="feather icon-log-in"></i> Logout</a></li>
+                        </ul>
+                    </li>
+                    <!-- Offcanvas Menu -->
+                    <li>
+                        <a href="#" class="btn wave-effect offcanvas-toggle"><i class="feather icon-settings"></i></a>
+                    </li>
+                    <!-- Notification Menu -->
+                    <li class="btn-group notification">
+                        <a href="javascript:;" class="btn dropdown-toggle wave-effect" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="feather icon-bell"><span class="notification-count">27</span></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li>
+                                <a href="#" class="wave-effect">
+                                    <span class="avatar">
+                                        <img src="{{ site.baseurl }}/images/demo/profile.png" alt="Mr. Chu" />
+                                    </span>
+                                    <span class="name">Jas Gillionaire</span>
+                                    <span class="message">Like your post: “Contact Form 7 Multi-Step”</span>
+                                    <span class="time">45 min</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="wave-effect">
+                                    <span class="avatar">
+                                        <img src="{{ site.baseurl }}/images/demo/user.jpg" alt="Andrew" />
+                                    </span>
+                                    <span class="name">Gurinder Singh</span>
+                                    <span class="message">Like your post: “Contact Form 7 Multi-Step”</span>
+                                    <span class="time">45 min</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="wave-effect">
+                                    <span class="avatar">
+                                        <img src="{{ site.baseurl }}/images/demo/profile.png" alt="Mr. Chu" />
+                                    </span>
+                                    <span class="name">Andrew the Canadian</span>
+                                    <span class="message">Like your post: “Contact Form 7 Multi-Step”</span>
+                                    <span class="time">45 min</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="wave-effect">
+                                    <span class="avatar">
+                                        <img src="{{ site.baseurl }}/images/demo/user.jpg" alt="Mr. Chu" />
+                                    </span>
+                                    <span class="name">Artsy Shohan</span>
+                                    <span class="message">Like your post: “Contact Form 7 Multi-Step”</span>
+                                    <span class="time">45 min</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="wave-effect">
+                                    <span class="avatar">
+                                        <img src="{{ site.baseurl }}/images/demo/profile.png" alt="Mr. Chu" />
+                                    </span>
+                                    <span class="name">Sazzad Shammad</span>
+                                    <span class="message">Like your post: “Contact Form 7 Multi-Step”</span>
+                                    <span class="time">45 min</span>
+                                </a>
+                            </li>
+                            <li><a href="/notification" class="dropdown-item all-notifications wave-effect">See more messages <i class="feather icon-arrow-down"></i></a></li>
+                        </ul>
+                    </li>
+                    <li class="mobile-menu-toggle">
+                        <a href="#" class="menu-toggle wave-effect">
+                            <i class="feather icon-menu"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<aside class="offcanvas-menu">
+    <div class="offcanvas-button">
+        <a href="#" class="btn wave-effect offcanvas-toggle font-20"><span aria-hidden="true">&times;</span></a>
+    </div>
+    <h5 class="offcanvas-title">List Group</h4>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">Porta ac consectetur ac</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+    </ul>
+
+    <h5 class="offcanvas-title">List Group</h4>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Cras justo odio
+            <span class="badge badge-primary badge-pill">14</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Dapibus ac facilisis in
+            <span class="badge badge-primary badge-pill">2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Morbi leo risus
+            <span class="badge badge-primary badge-pill">1</span>
+        </li>
+    </ul>
+
+    <h5 class="offcanvas-title">List Group Content</h4>
+    <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List group item heading</h5>
+                <small>3 days ago</small>
+            </div>
+            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+            <small>Donec id elit non mi porta.</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List group item heading</h5>
+                <small class="text-muted">3 days ago</small>
+            </div>
+            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+            <small class="text-muted">Donec id elit non mi porta.</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List group item heading</h5>
+                <small class="text-muted">3 days ago</small>
+            </div>
+            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+            <small class="text-muted">Donec id elit non mi porta.</small>
+        </a>
+    </div>
+</aside>
