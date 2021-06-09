@@ -68,7 +68,7 @@
 											<small class="feature-subtitle">Lorem ipsum dolor sit</small>
 										</div>
 									</header>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias doloremque, quis, eaque minus harum modi eius veritatis consequuntur expedita impedit ad, facilis. Asperiores assumenda aperiam atque, accusamus cupiditate vero sit!</p>
+									<p> info dito</p>
 									<a href="#" class="more-link">Read More</a>
 								</div>
 							</div>
