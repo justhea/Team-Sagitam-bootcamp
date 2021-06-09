@@ -1,0 +1,211 @@
+{% assign current = page.url | downcase | split: '/' %}
+
+<!-- Main Menu -->
+<div class="sidebar">
+    <div class="logo">
+        <a href="{{ site.baseurl }}/">
+            <span class="logo-emblem"><img src="{{ site.baseurl }}/images/boot.png" alt="BA" /></span>
+            <span class="logo-full">Bootadmin</span>
+        </a>
+    </div>
+    <ul id="sidebarCookie">
+        <li class="spacer"></li>
+        <li class="profile">
+            <span class="profile-image">
+                <img src="{{ site.baseurl }}/images/demo/user.jpg" alt="profile" />
+            </span>
+            <span class="profile-name">
+                Daniel Craig
+            </span>
+            <span class="profile-info">
+                Premium User
+            </span>
+        </li>
+        <li class="spacer"></li>
+        <li class="title">
+            <i class="feather icon-more-horizontal"></i>
+            <span class="menu-title">Main</span>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link wave-effect collapsed wave-effect" data-parent="#sidebarCookie" data-toggle="collapse" href="#navDashboard" aria-expanded="false" aria-controls="page-dashboards">
+                <i class="feather icon-grid"></i>
+                <span class="menu-title">Dashboard</span>
+                <i class="feather icon-chevron-down down-arrow"></i>
+            </a>
+            <div class="collapse" id="navDashboard">
+                <ul class="flex-column sub-menu">
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/">
+                            <i class="feather icon-layout"></i>
+                            <span class="menu-title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/">
+                            <i class="feather icon-shopping-bag"></i>
+                            <span class="menu-title">eCommerce</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-darkSidebar wave-effect" href="javascript: void();">
+                            <i class="feather icon-shopping-bag"></i>
+                            <span class="menu-title">Toggle Sidebar Color</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link wave-effect collapsed" data-parent="#sidebarCookie" data-toggle="collapse" href="#navPageLayouts" aria-expanded="false" aria-controls="page-layouts">
+                <i class="feather icon-sidebar"></i>
+                <span class="menu-title">Page Layouts</span>
+                <i class="feather icon-chevron-down down-arrow"></i>
+            </a>
+            <div class="collapse" id="navPageLayouts">
+                <ul class="flex-column sub-menu">
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/">
+                            <i class="feather icon-layout"></i>
+                            <span class="menu-title">Default</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/boxed">
+                            <i class="feather icon-bold"></i>
+                            <span class="menu-title">Boxed</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/horizontal">
+                            <i class="feather icon-pause"></i>
+                            <span class="menu-title">Horizontal Menu</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/boxedhorizontal">
+                            <i class="feather icon-copy"></i>
+                            <span class="menu-title">Boxed &amp; Horizontal</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link wave-effect collapsed" data-parent="#sidebarCookie" data-toggle="collapse" href="#navElements" aria-expanded="false" aria-controls="page-elements">
+                <i class="feather icon-layout"></i>
+                <span class="menu-title">Elements</span>
+                <i class="feather icon-chevron-down down-arrow"></i>
+            </a>
+            <div class="collapse" id="navElements">
+                <ul class="flex-column sub-menu">
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/elements/bootstrap">
+                            <i class="feather icon-bold"></i>
+                            <span class="menu-title">Bootstrap</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/elements/gallery">
+                            <i class="feather icon-image"></i>
+                            <span class="menu-title">Gallery</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/elements/cards">
+                            <i class="feather icon-credit-card"></i>
+                            <span class="menu-title">Cards</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/elements/grid">
+                            <i class="feather icon-grid"></i>
+                            <span class="menu-title">Grid</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="title">
+            <i class="feather icon-more-horizontal"></i>
+            <span class="menu-title">App Features</span>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link wave-effect collapsed" data-parent="#sidebarCookie" data-toggle="collapse" href="#navMailbox" aria-expanded="false" aria-controls="page-mailbox">
+                <i class="feather icon-mail"></i>
+                <span class="menu-title">Mailbox</span>
+                <i class="feather icon-chevron-down down-arrow"></i>
+            </a>
+            <div class="collapse" id="navMailbox">
+                <ul class="flex-column sub-menu">
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/app/inbox">
+                            <i class="feather icon-inbox"></i>
+                            <span class="menu-title">Inbox</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/app/inbox/email">
+                            <i class="feather icon-mail"></i>
+                            <span class="menu-title">Email</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/app/inbox/compose">
+                            <i class="feather icon-send"></i>
+                            <span class="menu-title">Compose</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a href="{{ site.url }}/app/calendar" class="nav-link wave-effect nav-single">
+                <i class="feather icon-calendar"></i>
+                <span class="menu-title">Calendar</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link wave-effect collapsed" data-parent="#sidebarCookie" data-toggle="collapse" href="#navProfilebox" aria-expanded="false" aria-controls="page-profilebox">
+                <i class="feather icon-users"></i>
+                <span class="menu-title">Account</span>
+                <i class="feather icon-chevron-down down-arrow"></i>
+            </a>
+            <div class="collapse" id="navProfilebox">
+                <ul class="flex-column sub-menu">
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/account/profile">
+                            <i class="feather icon-user"></i>
+                            <span class="menu-title">Profile</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/account/billing">
+                            <i class="feather icon-dollar-sign"></i>
+                            <span class="menu-title">Billing</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link wave-effect" href="{{ site.url }}/account/settings">
+                            <i class="feather icon-settings"></i>
+                            <span class="menu-title">Settings</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="title">
+            <i class="feather icon-more-horizontal"></i>
+            <span class="menu-title">Misc</span>
+        </li>
+        <li class="nav-item">
+            <a href="{{ site.url }}/credits" class="nav-link wave-effect nav-single">
+                <i class="feather icon-zap"></i>
+                <span class="menu-title">Credits</span>
+            </a>
+        </li>
+        <li class="spacer"></li>
+        <li class="button-container">
+            <a href="https://github.com/iamshipon1988/bootadmin" class="btn btn-primary display-block"><i class="feather icon-download"></i> Download on Github</a>
+        </li>
+    </ul>
+</div>
