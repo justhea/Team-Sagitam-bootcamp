@@ -51,11 +51,11 @@
 									<header>
 									
 										<div class="feature-title-copy">
-											<h2 class="feature-title">Criminal Things</h2>
-											<small class="feature-subtitle">Lorem ipsum dolor sit</small>
+											<h2 class="feature-title">How Attorneys Can Help You?</h2>
+											<small class="feature-subtitle"></small>
 										</div>
 									</header>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias doloremque, quis, eaque minus harum modi eius veritatis consequuntur expedita impedit ad, facilis. Asperiores assumenda aperiam atque, accusamus cupiditate vero sit!</p>
+									<p>The law is part of your daily life and lawyers are trained to guide you through the legal process. A lawyer can help you buy a home, write a will, or sell a business.</p>
 									<a href="#" class="more-link">Read More</a>
 								</div>
 							</div>
@@ -64,11 +64,11 @@
 									<header>
 										
 										<div class="feature-title-copy">
-											<h2 class="feature-title">Estate Planning</h2>
-											<small class="feature-subtitle">Lorem ipsum dolor sit</small>
+											<h2 class="feature-title">Reasons to Hire a Lawyer?</h2>
+											<small class="feature-subtitle"></small>
 										</div>
 									</header>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias doloremque, quis, eaque minus harum modi eius veritatis consequuntur expedita impedit ad, facilis. Asperiores assumenda aperiam atque, accusamus cupiditate vero sit!</p>
+									<p>The law is complicated and not everyone knows the law the lawyers can. They know how to properly place the evidence and file your documents. Finally, not having a lawyer can cost you more money.</p>
 									<a href="#" class="more-link">Read More</a>
 								</div>
 							</div>
@@ -77,11 +77,11 @@
 									<header>
 										
 										<div class="feature-title-copy">
-											<h2 class="feature-title">Employment Law</h2>
-											<small class="feature-subtitle">Lorem ipsum dolor sit</small>
+											<h2 class="feature-title">Where we are?</h2>
+											<small class="feature-subtitle"></small>
 										</div>
 									</header>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias doloremque, quis, eaque minus harum modi eius veritatis consequuntur expedita impedit ad, facilis. Asperiores assumenda aperiam atque, accusamus cupiditate vero sit!</p>
+									<p>Units D & F, Third Floor, LMB Building 158 San Antonio Avenue, Paranaque City.</p>
 									<a href="#" class="more-link">Read More</a>
 								</div>
 							</div>
