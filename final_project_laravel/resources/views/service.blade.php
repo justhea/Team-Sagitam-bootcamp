@@ -38,7 +38,7 @@
 											<small class="feature-subtitle">Case</small>
 										</div>
 									</header>
-									<p>The person who was accussed of harming or committing the crime that breaks the law against the state.</p>
+									<p>The person who was accused of harming or committing the crime that breaks the law against the state.</p>
 								</div>
 							</div>
 						</div>
@@ -65,7 +65,7 @@
 											<small class="feature-subtitle">Case</small>
 										</div>
 									</header>
-									<p>A lawsuit where a party looks to establish a status or a right. Where the party files a suit against the other party to seek the wrong and to protect their rights.</p>
+									<p>A lawsuit where a party looks to establish a status or a right. Where the party files a suit against the other party to protect their rights.</p>
 								</div>
 							</div>
 						</div>
