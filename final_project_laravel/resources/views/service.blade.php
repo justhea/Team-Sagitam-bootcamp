@@ -22,10 +22,10 @@
 										
 										<div class="feature-title-copy">
 											<h2 class="feature-title">Civil</h2>
-											<small class="feature-subtitle">Lorem ipsum dolor sit</small>
+											<small class="feature-subtitle">Case</small>
 										</div>
 									</header>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias doloremque, quis, eaque minus harum modi eius veritatis consequuntur expedita impedit ad, facilis. Asperiores assumenda aperiam atque, accusamus cupiditate vero sit!</p>
+									<p>Filing a lawsuit as the person who was exposed to harm as a result from someone's negligence or recklessness.</p>
 								</div>
 							</div>
 							
@@ -35,10 +35,10 @@
 									
 										<div class="feature-title-copy">
 											<h2 class="feature-title">Criminal</h2>
-											<small class="feature-subtitle">Lorem ipsum dolor sit</small>
+											<small class="feature-subtitle">Case</small>
 										</div>
 									</header>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias doloremque, quis, eaque minus harum modi eius veritatis consequuntur expedita impedit ad, facilis. Asperiores assumenda aperiam atque, accusamus cupiditate vero sit!</p>
+									<p>The person who was accused of harming or committing the crime that breaks the law against the state.</p>
 								</div>
 							</div>
 						</div>
@@ -49,10 +49,10 @@
 										
 										<div class="feature-title-copy">
 											<h2 class="feature-title">Land Registration</h2>
-											<small class="feature-subtitle">Lorem ipsum dolor sit</small>
+											<small class="feature-subtitle">Case</small>
 										</div>
 									</header>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias doloremque, quis, eaque minus harum modi eius veritatis consequuntur expedita impedit ad, facilis. Asperiores assumenda aperiam atque, accusamus cupiditate vero sit!</p>
+									<p>The concern of ownership, possession or other rights in land are investigated in proper matters that isn't against the law.</p>
 								</div>
 							</div>
 							
@@ -62,10 +62,10 @@
 										
 										<div class="feature-title-copy">
 											<h2 class="feature-title">Special Proceeding</h2>
-											<small class="feature-subtitle">Lorem ipsum dolor sit</small>
+											<small class="feature-subtitle">Case</small>
 										</div>
 									</header>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias doloremque, quis, eaque minus harum modi eius veritatis consequuntur expedita impedit ad, facilis. Asperiores assumenda aperiam atque, accusamus cupiditate vero sit!</p>
+									<p>A lawsuit where a party looks to establish a status or a right. Where the party files a suit against the other party to protect their rights.</p>
 								</div>
 							</div>
 						</div>
