@@ -10859,9 +10859,8 @@ a:focus {
     height: calc(20rem - 43px) !important;
   }
 }
-
 .bg-login-image {
-  background: url("https://source.unsplash.com/K4mSJ7kc0As/600x800");
+  background: url();
   background-position: center;
   background-size: cover;
 }
@@ -11299,4 +11298,7 @@ body.sidebar-toggled footer.sticky-footer {
   position: absolute;
   left: 15px;
   bottom: 0;
+}
+.user-picture {
+  width: 300px;
 }
