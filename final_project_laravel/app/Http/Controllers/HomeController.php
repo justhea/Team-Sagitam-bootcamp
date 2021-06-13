@@ -39,14 +39,5 @@ class HomeController extends Controller
         ]);
     }
 
-    public function signup()
-    {
-        $title = "Signup";
-        $isCurrent = "Signup"; 
 
-        return view('signup', [
-            'title' => $title,
-            'isCurrent' => $isCurrent
-        ]);
-    }
 }
