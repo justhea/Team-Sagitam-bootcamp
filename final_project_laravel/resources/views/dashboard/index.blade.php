@@ -24,15 +24,15 @@
             <div class="card-body" >
                 <div class="profile-card">
                     <div class="image-container">
-                        <img src="{{asset('dashboards/img/user.jpg')}}">
+                        <img src="{{ auth()->user()->profile_image }}">
                         <div class="title-name">
-                        <h2 class="user-profile">Franciso Beltran</h2>
+                        <h2 class="user-profile">{{ auth()->user()->name }}</h2>
                         </div>
                     </div>
                     <div class="user-container">
-                        <p><i class="fas fa-envelope"> Email: user@gmail.com</i><p>
+                        <p><i class="fas fa-envelope"> Email: {{ auth()->user()->email }}</i><p>
                         <p><i class="fas fa-suitcase"> Case: Criminal Case</i></p>
-                        <p><i class="fas fa-phone-square-alt"> Number: 09234561927</i></p>
+                        <p><i class="fas fa-phone-square-alt"> Number: {{ auth()->user()->contact_no }}</i></p>
                         <hr>
                         <p>Case Status</p>
                         <div style="background-color: #97D0E3; border-radius: 16px;">

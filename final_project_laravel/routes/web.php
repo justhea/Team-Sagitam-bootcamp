@@ -12,13 +12,26 @@
 */
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\{
+    DashboardController,
+    HomeController,
+    LoginController
+};
 
-// (url_attern, [Controller_name, method_name])->name(alias)
-Route::get('/', [HomeController::class, 'index'])->name('home.index');
-Route::get('/attorney', [HomeController::class, 'attorney'])->name('home.attorney');
-Route::get('/service', [HomeController::class, 'service'])->name('home.service');
-Route::get('/signup', [HomeController::class, 'signup'])->name('home.signup');
+Route::middleware(['guest'])->group(function() {
+    // (url_attern, [Controller_name, method_name])->name(alias)
+    Route::get('/', [HomeController::class, 'index'])->name('home.index');
+    Route::get('/attorney', [HomeController::class, 'attorney'])->name('home.attorney');
+    Route::get('/service', [HomeController::class, 'service'])->name('home.service');
+    Route::get('/signup', [HomeController::class, 'signup'])->name('home.signup');
 
-Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard.dashboard');
+    Route::get('/login', [LoginController::class, 'login'])->name('login.login');
+    Route::post('/login', [LoginController::class, 'auth'])->name('login.auth');
+});
+
+Route::middleware(['auth'])->group(function() {
+    Route::get('/logout', [LoginController::class, 'logout'])->name('login.logout');
+    Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard.dashboard');
+    Route::get('/profile', [DashboardController::class, 'profile'])->name('dashboard.profile');
+    Route::get('/directory', [DashboardController::class, 'directory'])->name('dashboard.directory');
+});
