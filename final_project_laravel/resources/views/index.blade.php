@@ -13,6 +13,8 @@
 					<source src="Lawyer.mp4" type="video/mp4">
 				
 				</video>--> <!-- tanggalin ko muna for the meantime-->
+				
+				<!-- <img src="" alt="background" width="100" height="200"> -->
 					<div class="container">		
 							<div class="col-md-8">
 							</div>
@@ -54,7 +56,7 @@
 									<header>
 									
 										<div class="feature-title-copy">
-											<h2 class="feature-title">How Attorneys Can Help You?</h2>
+											<h2 class="feature-title">How Can Attorneys Help You?</h2>
 											<small class="feature-subtitle"></small>
 										</div>
 									</header>
@@ -80,7 +82,7 @@
 									<header>
 										
 										<div class="feature-title-copy">
-											<h2 class="feature-title">Where we are?</h2>
+											<h2 class="feature-title">Where Are We?</h2>
 											<small class="feature-subtitle"></small>
 										</div>
 									</header>
