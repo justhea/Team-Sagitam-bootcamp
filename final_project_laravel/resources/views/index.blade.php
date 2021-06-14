@@ -21,8 +21,6 @@
 								<h1 class="hero-title" style="font-size:40px;"><font face="Roboto">Justice In Words</font></h1>
 									<p class="redtext" style="font-size:20px;">BENEDICTO LAW, JUSTICE IS WHAT WE CREATE EVERYDAY. </p>
 									<p class="redtext" style="font-size:20px;">WITH DEEPER UNDERSTANDING, GET BETTER SOLUTIONS.</p>
-									<p class="redtext" style="font-size:20px;">SIGN UP TODAY, ITS FREE!</p>
-									<a href="about.php" class="button">Learn more</a>
 								</div>
 							</div>
 						</div>
@@ -56,7 +54,7 @@
 										</div>
 									</header>
 									<p>The law is part of your daily life and lawyers are trained to guide you through the legal process. A lawyer can help you buy a home, write a will, or sell a business.</p>
-									<a href="#" class="more-link">Read More</a>
+								
 								</div>
 							</div>
 							<div class="col-md-4">
@@ -69,7 +67,7 @@
 										</div>
 									</header>
 									<p>The law is complicated and not everyone knows the law the lawyers can. They know how to properly place the evidence and file your documents. Finally, not having a lawyer can cost you more money.</p>
-									<a href="#" class="more-link">Read More</a>
+							
 								</div>
 							</div>
 							<div class="col-md-4">
@@ -82,7 +80,7 @@
 										</div>
 									</header>
 									<p>Units D & F, Third Floor, LMB Building 158 San Antonio Avenue, Paranaque City.</p>
-									<a href="#" class="more-link">Read More</a>
+							
 								</div>
 							</div>
 						</div>

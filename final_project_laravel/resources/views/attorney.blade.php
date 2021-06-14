@@ -39,7 +39,7 @@ Public Attorney's Office), he retired from government service and tried his luck
 								<p>(Pending)</p>
 							</div>	
 						</div>
-
+<!--
 						<div class="counter">
 							<div class="num">N/A</div>
 							<div class="copy">
@@ -49,6 +49,7 @@ Public Attorney's Office), he retired from government service and tried his luck
 						</div>
 
 					</div>
+					-->
 				</div>
 
 			</main> 
