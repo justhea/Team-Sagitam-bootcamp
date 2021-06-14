@@ -31,7 +31,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{route('dashboard.dashboard')}}">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -43,7 +43,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.php">
+                <a class="nav-link" href="{{route('dashboard.dashboard')}}">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>DashBoard</span></a>
             </li>
@@ -66,29 +66,17 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.php">Profile</a>
-                        <a class="collapse-item" href="cards.php">Directory</a>
+                        <a class="collapse-item" href="{{route('dashboard.profile')}}">Profile</a>
+                        <a class="collapse-item" href="{{route('dashboard.directory')}}">Directory</a>
                     </div>
                 </div>
             </li>
 
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-book"></i>
-                    <span>Journal</span>
-                </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="utilities-color.php">Colors</a>
-                        <a class="collapse-item" href="utilities-border.php">Borders</a>
-                        <a class="collapse-item" href="utilities-animation.php">Animations</a>
-                        <a class="collapse-item" href="utilities-other.php">Other</a>
-                    </div>
-                </div>
+                <a class="nav-link" href="{{route('dashboard.dashboard')}}">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Journal</span></a>
             </li>
 
             <!-- Divider -->
