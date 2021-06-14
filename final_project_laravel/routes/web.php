@@ -15,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\{
     DashboardController,
     HomeController,
-    LoginController
+    LoginController,
+    RegisterController
 };
 
 Route::middleware(['guest'])->group(function() {
@@ -23,10 +24,12 @@ Route::middleware(['guest'])->group(function() {
     Route::get('/', [HomeController::class, 'index'])->name('home.index');
     Route::get('/attorney', [HomeController::class, 'attorney'])->name('home.attorney');
     Route::get('/service', [HomeController::class, 'service'])->name('home.service');
-    Route::get('/signup', [HomeController::class, 'signup'])->name('home.signup');
+
 
     Route::get('/login', [LoginController::class, 'login'])->name('login.login');
     Route::post('/login', [LoginController::class, 'auth'])->name('login.auth');
+    Route::get('/register', [RegisterController::class, 'signin'])->name('register.signin');
+    Route::post('/register', [RegisterController::class, 'register'])->name('register.register');
 });
 
 Route::middleware(['auth'])->group(function() {
