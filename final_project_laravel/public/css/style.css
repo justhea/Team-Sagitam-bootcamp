@@ -1,6 +1,10 @@
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 /* line 58 yung books na image */
+.col-md-8 {
+  opacity: 0.3;
+}
+
 #books {
   height: 100px;
   width: 2000px;
@@ -1076,14 +1080,15 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 35, sass/layout/_content.scss */
 .hero img { 
   display: block;
-   max-width: 100%; 
+
+
  }
 
  /* line 70 .hero-conetent */
  .hero .hero-content {
   text-align: center;
-  margin-top: 250px;
-  margin-right: -100px;
+  margin-top: 100px;
+  margin-right: 100px;
   margin-left: -800px;
 }
 

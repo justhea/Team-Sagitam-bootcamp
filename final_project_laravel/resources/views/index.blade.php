@@ -7,18 +7,18 @@
 @section('content')
 
 <main class="main-content">
-				<div class="hero">
+<div class="hero">
 				<!--
 				<video autoplay loop class="video-background">
 					<source src="Lawyer.mp4" type="video/mp4">
 				
 				</video>--> <!-- tanggalin ko muna for the meantime-->
 				
-				<!-- <img src="" alt="background" width="100" height="200"> -->
-					<div class="container">		
 							<div class="col-md-8">
+							<img src="images/backgrounder.jpg" alt="bda" height="470" width="1315"> 
 							</div>
 							<div class="col-md-4">
+							
 								<div class="hero-content">
 								<h1 class="hero-title" style="font-size:40px;"><font face="Roboto">Justice In Words</font></h1>
 									<p class="redtext" style="font-size:20px;">BENEDICTO LAW, JUSTICE IS WHAT WE CREATE EVERYDAY. </p>
@@ -28,6 +28,7 @@
 									<p class="redtext" style="font-size:20px;">SIGN UP TODAY, ITS FREE!</p>
 									<a href="{{route('login.login')}}" class="button">Login</a>
 >>>>>>> Stashed changes
+
 								</div>
 							</div>
 						</div>
