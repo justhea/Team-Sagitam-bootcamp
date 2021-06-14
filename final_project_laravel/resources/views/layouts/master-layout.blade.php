@@ -41,7 +41,7 @@
 							<li class="menu-item {{ ($isCurrent == 'Home') ? 'current-menu-item' : '' }}"><a href="{{ route('home.index') }}">Home</a></li>
 							<li class="menu-item {{ ($isCurrent == 'Attorney') ? 'current-menu-item' : '' }}"><a href="{{ route('home.attorney') }}">Attorney</a></li>
 							<li class="menu-item {{ ($isCurrent == 'Service') ? 'current-menu-item' : '' }}"><a href="{{ route('home.service') }}">Service</a></li>
-							<li class="menu-item {{ ($isCurrent == 'Signup') ? 'current-menu-item' : '' }}"><a href="{{ route('login.login') }}">signup</a></li>
+							<li class="menu-item {{ ($isCurrent == 'Signup') ? 'current-menu-item' : '' }}"><a href="{{ route('login.login') }}">Login</a></li>
 						</ul>
 					</nav>
 					<nav class="mobile-navigation"></nav>
