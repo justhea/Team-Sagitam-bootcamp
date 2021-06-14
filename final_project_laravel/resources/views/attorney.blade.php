@@ -31,12 +31,14 @@ Due to his hard work the Presiding Judge of MTC brancg 78, Angelina Domingo-Maur
 								<h3 class="year">2003</h3>
 								<h2 class="milestone-title">Public to private</h2>
 								<p>In 2003, after 15 years of service in the government(10 years with the House of Representatives and five years with the 
-Public Attorney's Office), he retired from government service and tried his luck in the private practice of law. He was invited to for a law partnership by law professpr, Atty.Romeo R. Robiso, hence the Robiso & Benedicto Law Office was established</p>
+Public Attorney's Office), he retired from government service and tried his luck in the private practice of law. He was invited to for a law partnership by law professpr, Atty.Romeo R. Robiso, hence the Robiso & Benedicto Law Office was established.</p>
 							</div>
 							<div class="milestone">
 								<h3 class="year">PRESENT</h3>
 								<h2 class="milestone-title">Benedicto Law office Present</h2>
-								<p>(Pending)</p>
+								<p>Atty. Benedicto's stand is that providing aid or assistance to a client is much more important than winning a case. The first thing that comes 
+								to his mind when handling a client is the study of the merits of the case. The end goal of Atty. Benedicto is not winning but more of assisting the 
+								client and thats what made the Benedicto Law Office today.</p>
 							</div>	
 						</div>
 <!--
