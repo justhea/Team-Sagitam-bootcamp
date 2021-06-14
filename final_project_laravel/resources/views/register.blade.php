@@ -43,30 +43,41 @@
                         <div class="p-5">
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
+
+                                @if (!$register)
+                                    <div class="alert alert-danger" role="alert">
+                                        Email already exist.
+                                    </div>
+                                @endif
                             </div>
                             <form class="user" method="POST" action="{{ route('register.register') }}">
-@csrf
+                                @csrf
                                 <div class="form-group">
-                                <label for="name" class="form-label">Name</label>
-                                    <input type="text" class="form-control form-control-user" id="name"
-                                        placeholder="Name">
-                                </div>
-                                <div class="form-group">
-                                <label for="email" class="form-label">Email address</label>
-                                    <input type="email" class="form-control form-control-user" id="email"
-                                        placeholder="Email Address">
-                                </div>
-                                <div class="form-group">
-                                   
-                                    <label for="password" class="form-label">Password</label>
-                                        <input type="password" class="form-control form-control-user"
-                                            id="password" placeholder="Password">
+                                    <label for="name" class="form-label">Name</label>
+                                        <input type="text" class="form-control form-control-user" id="name"
+                                            placeholder="Name" name="name" required>
                                     </div>
-                                     
-                                <button type="submit" class="btn btn-primary btn-user btn-block">Register</button>
+                                    <div class="form-group">
+                                    <label for="email" class="form-label">Email address</label>
+                                        <input type="email" class="form-control form-control-user" id="email"
+                                            placeholder="Email Address" name="email" required>
+                                    </div>
+                                    <div class="form-group">
+                                    
+                                        <label for="password" class="form-label">Password</label>
+                                            <input type="password" class="form-control form-control-user"
+                                                id="password" placeholder="Password" name="password" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                    
+                                        <label for="bdate" class="form-label">Password</label>
+                                            <input type="date" class="form-control form-control-user"
+                                                id="bdate" placeholder="Birthdate" name="bdate" required>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary btn-user btn-block">Register</button>
                                 </div>
-                              
-                                
                                 <hr>
                             </form>
                             <hr>

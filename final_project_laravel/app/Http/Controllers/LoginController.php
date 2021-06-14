@@ -10,9 +10,14 @@ class LoginController extends Controller
     public function login()
     {
         $loginTitle = "Login";
+        $auth = $_GET['auth'] ?? 1;
+        $registration = $_GET['registration'] ?? 0;
+
         return view('login',
         [
-            'loginTitle' => $loginTitle
+            'loginTitle' => $loginTitle,
+            'registration' => $registration,
+            'auth' => $auth,
         ]
     );
 

@@ -47,6 +47,18 @@
                                 <div class="p-5">
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Employee Administrator</h1>
+
+                                        @if ($registration)
+                                            <div class="alert alert-success" role="alert">
+                                                Registration successful. Please log in your account.
+                                            </div>
+                                        @endif
+
+                                        @if (!$auth)
+                                            <div class="alert alert-danger" role="alert">
+                                                Invalid credentials.
+                                            </div>
+                                        @endif
                                     </div>
                                     <form class="user" action="{{ route('login.auth') }}" method="post">
                                     @csrf
