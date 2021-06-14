@@ -56,10 +56,8 @@
             <div class="container">
                 
                 <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                    <a href="https://www.facebook.com/BenedictoRealty/"><i class="fa fa-facebook"></i></a>
+                 
                 </div>
                 <div class="copy">
                     <p>Copyright 2021 Benedicto Law Office</p>

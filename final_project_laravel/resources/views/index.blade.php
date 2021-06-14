@@ -24,7 +24,7 @@
 <<<<<<< Updated upstream
 =======
 									<p class="redtext" style="font-size:20px;">SIGN UP TODAY, ITS FREE!</p>
-									<a href="signup.blade.php" class="button">Login</a>
+									<a href="{{route('login.login')}}" class="button">Login</a>
 >>>>>>> Stashed changes
 								</div>
 							</div>
