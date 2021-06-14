@@ -19,14 +19,14 @@
 
     <!-- Custom styles for this template-->
     <link href="{{asset('dashboards/css/sb-admin-2.min.css')}}" rel="stylesheet">
+
     <style>
         .new-bg-register-image {
-             background: url(img/Benedicto.jpg);
+             background: url("{{asset('dashboards/img/Benedicto.jpg')}}");
              background-position: center;
              background-size: cover;
         }
     </style>
-
 </head>
 
 <body class="bg-gradient-primary">
@@ -42,7 +42,7 @@
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
-                           <img src={{asset('dashboards/img/Benedicto.jpg')}} class="col-lg-6 d-none d-lg-block new-bg-login-image"> 
+                           <img src="{{asset('dashboards/img/Benedicto.jpg')}}" class="col-lg-6 d-none d-lg-block new-bg-login-image"> 
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">

@@ -22,7 +22,7 @@
 
     <style>
         .new-bg-register-image {
-             background: url(img/Benedicto.jpg);
+             background: url("{{asset('dashboards/img/Benedicto.jpg')}}");
              background-position: center;
              background-size: cover;
         }
@@ -62,17 +62,12 @@
                                         <input type="password" class="form-control form-control-user"
                                             id="password" placeholder="Password">
                                     </div>
-                                </div>
-                               
+                                     
                                 <button type="submit" class="btn btn-primary btn-user btn-block">Register</button>
+                                </div>
+                              
                                 
                                 <hr>
-                                <a href="index.php" class="btn btn-google btn-user btn-block">
-                                    <i class="fab fa-google fa-fw"></i> Register with Google
-                                </a>
-                                <a href="index.php" class="btn btn-facebook btn-user btn-block">
-                                    <i class="fab fa-facebook-f fa-fw"></i> Register with Facebook
-                                </a>
                             </form>
                             <hr>
                             <div class="text-center">
