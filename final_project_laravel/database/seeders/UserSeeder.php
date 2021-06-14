@@ -22,7 +22,7 @@ class UserSeeder extends Seeder
             'user_type' => 'admin',
             'bdate' => '1990-05-31',
             'contact_no' => '09173210762',
-            'profile_image' => 'http://localhost:8000/storage/images/Greg-Emerson-edit-2.jpg'
+            'profile_image' => 'http://localhost:8000/storage/images/default.jpg'
         ]);
     }
 }

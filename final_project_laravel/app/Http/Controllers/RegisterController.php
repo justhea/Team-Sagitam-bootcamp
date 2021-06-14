@@ -33,7 +33,7 @@ class RegisterController extends Controller
         'user_type' => 'user',
         'bdate' => $request->get('bdate'),
         'contact_no' => '',
-        'profile_image' => '',
+        'profile_image' => 'http://localhost:8000/storage/images/default.jpg',
         //...
       ]);
   
