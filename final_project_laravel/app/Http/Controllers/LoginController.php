@@ -9,7 +9,13 @@ class LoginController extends Controller
 {
     public function login()
     {
-        return view('login');
+        $loginTitle = "Login";
+        return view('login',
+        [
+            'loginTitle' => $loginTitle
+        ]
+    );
+
     }
 
     public function auth(Request $request)
@@ -33,6 +39,6 @@ class LoginController extends Controller
     {
         Auth::logout();
         
-        return redirect(route('login.login'));
+        return redirect(route('home.index'));
     }
 }
