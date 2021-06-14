@@ -21,6 +21,11 @@
 								<h1 class="hero-title" style="font-size:40px;"><font face="Roboto">Justice In Words</font></h1>
 									<p class="redtext" style="font-size:20px;">BENEDICTO LAW, JUSTICE IS WHAT WE CREATE EVERYDAY. </p>
 									<p class="redtext" style="font-size:20px;">WITH DEEPER UNDERSTANDING, GET BETTER SOLUTIONS.</p>
+<<<<<<< Updated upstream
+=======
+									<p class="redtext" style="font-size:20px;">SIGN UP TODAY, ITS FREE!</p>
+									<a href="signup.blade.php" class="button">Login</a>
+>>>>>>> Stashed changes
 								</div>
 							</div>
 						</div>
