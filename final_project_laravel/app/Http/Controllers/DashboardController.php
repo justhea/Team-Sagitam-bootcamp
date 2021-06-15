@@ -31,12 +31,13 @@ class DashboardController extends Controller
     public function directory()
     {
         $dashboardTitle = "Directory";
-        $isCurrent = "Directory";
-        return view('dashboard.directory', [
-            'dashboardTitle' => $dashboardTitle,
-            'isCurrent' => $isCurrent
-        ]
-    );
+    $isCurrent = "Directory";
+    $users = User::all();
+    return view('dashboard.directory', [
+        'dashboardTitle' => $dashboardTitle,
+        'isCurrent' => $isCurrent,
+        'users' => $users
+    ]);
     }
     public function journal()
     {
