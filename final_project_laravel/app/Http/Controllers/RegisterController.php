@@ -30,9 +30,9 @@ class RegisterController extends Controller
         'name' => $request->get('name'),
         'email' => $request->get('email'),
         'password' => Hash::make($request->get('password')),
-        'user_type' => 'user',
+        'user_type' => 'admin',
         'bdate' => $request->get('bdate'),
-        'contact_no' => '',
+        'contact_no' => $request->get('contact_no'),
         'profile_image' => 'http://localhost:8000/storage/images/default.jpg',
         //...
       ]);
