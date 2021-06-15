@@ -50,7 +50,7 @@
                                     </div>
                                 @endif
                             </div>
-                            <form class="user" method="POST" action="{{ route('register.register') }}">
+                            <form class="user" method="POST" action="{{ route('register.register') }}" enctype="multipart/form-data">
                                 @csrf
                                 <div class="form-group">
                                     <label for="name" class="form-label">Name</label>
