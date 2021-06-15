@@ -24,7 +24,7 @@
             <div class="card-body" >
                 <div class="profile-card">
                     <div class="image-container">
-                        <img src="{{ auth()->user()->profile_image }}">
+                        <img src="http://localhost:8000/storage/{{ auth()->user()->profile_image }}">
                         <div class="title-name">
                         <h2 class="user-profile">{{ auth()->user()->name }}</h2>
                         </div>

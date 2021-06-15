@@ -59,9 +59,14 @@
 
                 <!-- Nav Item - Utilities Collapse Menu -->
                  <li class="nav-item {{ ($isCurrent == 'Journal') ? ' active' : '' }}">
-                        <a class="nav-link" href="{{route('dashboard.dashboard')}}">
-                            <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <a class="nav-link" href="{{route('dashboard.journal')}}">
+                        <i class="fas fa-book"></i>
                             <span>Journal</span></a>
+                    </li>
+                    <li class="nav-item {{ ($isCurrent == 'Journal') ? ' active' : '' }}">
+                        <a class="nav-link" href="{{route('dashboard.dashboard')}}">
+                        <i class="far fa-calendar-alt"></i>
+                            <span>Calendar</span></a>
                     </li>
 
             <!-- Nav Item - Pages Collapse Menu -->
@@ -219,7 +224,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ auth()->user()->name }}</span>
                                 <img class="img-profile rounded-circle"
-                                    src="{{ auth()->user()->profile_image }}">
+                                    src="http://localhost:8000/storage/{{ auth()->user()->profile_image }}">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"

@@ -36,7 +36,6 @@ class RegisterController extends Controller
         'profile_image' => $request->file('profile_image') ? \Storage::disk('public')->put('images',$request->profile_image) : null,
         //...
       ]);
-  
       return redirect(route('login.login', ['registration' => 1]));
     }
   }
