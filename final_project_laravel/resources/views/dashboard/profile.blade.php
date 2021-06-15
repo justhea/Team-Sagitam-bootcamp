@@ -7,11 +7,11 @@
 
 
 
-@yield('content')
+@section('content')
 
 
 
-
+@endsection
 
 
 @push('script')
