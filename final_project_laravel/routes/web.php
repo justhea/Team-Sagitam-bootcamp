@@ -36,5 +36,7 @@ Route::middleware(['auth'])->group(function() {
     Route::get('/logout', [LoginController::class, 'logout'])->name('login.logout');
     Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard.dashboard');
     Route::get('/profile', [DashboardController::class, 'profile'])->name('dashboard.profile');
+    Route::get('/journal', [DashboardController::class, 'journal'])->name('dashboard.journal');
+    Route::get('/files', [DashboardController::class, 'files'])->name('dashboard.files');
     Route::get('/directory', [DashboardController::class, 'directory'])->name('dashboard.directory');
 });

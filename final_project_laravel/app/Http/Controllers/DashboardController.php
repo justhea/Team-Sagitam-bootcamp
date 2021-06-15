@@ -42,7 +42,17 @@ class DashboardController extends Controller
     {
         $dashboardTitle = "Journal";
         $isCurrent = "Journal";
-        return view('dashboard.directory', [
+        return view('dashboard.journal', [
+            'dashboardTitle' => $dashboardTitle,
+            'isCurrent' => $isCurrent
+        ]
+    );
+    }
+    public function files()
+    {
+        $dashboardTitle = "Files";
+        $isCurrent = "Files";
+        return view('dashboard.files', [
             'dashboardTitle' => $dashboardTitle,
             'isCurrent' => $isCurrent
         ]

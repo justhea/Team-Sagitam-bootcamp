@@ -74,8 +74,8 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Directories</h6>
-                        <a class="collapse-item" href="{{route('dashboard.profile')}}">Profiles </a>
-                        <a class="collapse-item" href="{{route('dashboard.directory')}}">Files </a>
+                        <a class="collapse-item" href="{{route('dashboard.directory')}}">Profiles </a>
+                        <a class="collapse-item" href="{{route('dashboard.files')}}">Files </a>
                     </div>
                 </div>
             </li>
