@@ -73,12 +73,12 @@
                                         <input type="contact_no" class="form-control form-control-user" id="contact_no"
                                             placeholder="Contact Number" name="contact_no" required>
                                     </div>
-                                    <!--
+                                  
                                     <div class="form-group">
                                   <label for="profile_image" class="form-label">Upload profile picture</label>
                                 <input type="file" class="form-control-file form-control-user" id="profile_image" name="profile_image" required>
                             </div>
-                            -->
+                           
                                     <div class="form-group">
                                     
                                         <label for="bdate" class="form-label">Birthdate</label>
