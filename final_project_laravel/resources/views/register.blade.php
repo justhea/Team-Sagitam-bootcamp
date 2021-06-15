@@ -71,7 +71,7 @@
 
                                     <div class="form-group">
                                     
-                                        <label for="bdate" class="form-label">Password</label>
+                                        <label for="bdate" class="form-label">Birthdate</label>
                                             <input type="date" class="form-control form-control-user"
                                                 id="bdate" placeholder="Birthdate" name="bdate" required>
                                     </div>
