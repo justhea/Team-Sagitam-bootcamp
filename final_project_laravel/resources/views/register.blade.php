@@ -76,7 +76,7 @@
                                   
                                     <div class="form-group">
                                   <label for="profile_image" class="form-label">Upload profile picture</label>
-                                <input type="file" class="form-control-file form-control-user" id="profile_image" name="profile_image" required>
+                                <input type="file" class="form-control-file form-control-user" id="profile_image" name="profile_image">
                             </div>
                            
                                     <div class="form-group">
