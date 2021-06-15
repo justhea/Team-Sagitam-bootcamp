@@ -13,6 +13,9 @@
                         For more information about DataTables, please visit the <a target="_blank"
                             href="https://datatables.net">official DataTables documentation</a>.</p>
 
+
+                   
+
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
@@ -33,7 +36,8 @@
                                         </tr>
                                         @foreach($users as $user)
                                         <tr>
-                                           <td>{{ $user->profile_image }}</td>
+                                           <td><img class="img-profile rounded-circle"
+                                    src="http://localhost:8000/storage/{{ auth()->user()->profile_image }}"></td>
                                             <td>{{ $user->name }}</td>
                                             <td>{{ $user->email }}</td>
                                             <td>{{ $user->user_type }}</td>
@@ -68,7 +72,16 @@
     <!-- Page level plugins -->
     <script src="{{asset('dashboards/vendor/datatables/jquery.dataTables.min.js')}}"></script>
     <script src="{{asset('dashboards/vendor/datatables/dataTables.bootstrap4.min.js')}}"></script>
+ 
+    <script type="text/javascript" charset="utf8" src="{{asset('dashboards/datatables.js')}}">
+    
+    $(document).ready( function () {
+    $('users').DataTable();
+} );
+
+</script>
 
     <!-- Page level custom scripts -->
     <script src="{{asset('dashboards/js/demo/datatables-demo.js')}}"></script>
+
 @endpush
