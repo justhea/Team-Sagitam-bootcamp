@@ -77,7 +77,7 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Directories</h6>
-                        <a class="collapse-item" href="{{route('dashboard.directory')}}">Profiles </a>
+                        <a class="collapse-item" href="{{route('dashboard.directory')}}">Directory </a>
                         <a class="collapse-item" href="{{route('dashboard.files')}}">Files </a>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{route('dashboard.profile')}}">
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Profile
                                 </a>
