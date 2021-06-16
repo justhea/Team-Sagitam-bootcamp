@@ -36,7 +36,7 @@
                                         </tr>
                                         @foreach($users as $user)
                                         <tr>
-                                           <td><img width="100px" height="30px"class="img-profile rounded-circle"
+                                           <td><img width="100px" height="70px"class="img-profile rounded-circle"
                                     src="http://localhost:8000/storage/{{ $user->profile_image }}"></td>
                                             <td>{{ $user->name }}</td>
                                             <td>{{ $user->email }}</td>
