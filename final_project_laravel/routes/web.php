@@ -41,4 +41,5 @@ Route::middleware(['auth'])->group(function() {
     Route::get('/files', [DashboardController::class, 'files'])->name('dashboard.files');
     Route::post('/files', [FileuploadController::class, 'files'])->name('dashboard.files');
     Route::get('/directory', [DashboardController::class, 'directory'])->name('dashboard.directory');
+    Route::get('/calendar', [DashboardController::class, 'calendar'])->name('dashboard.calendar');
 });

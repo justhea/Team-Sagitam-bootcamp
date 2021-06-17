@@ -22,9 +22,11 @@ class DashboardController extends Controller
     {
         $dashboardTitle = "Profile";
         $isCurrent = "Profile";
+        $users = User::all();
         return view('dashboard.profile', [
             'dashboardTitle' => $dashboardTitle,
-            'isCurrent' => $isCurrent
+            'isCurrent' => $isCurrent,
+            'users' => $users
         ]
     );
     }
@@ -54,6 +56,18 @@ class DashboardController extends Controller
         $dashboardTitle = "Files";
         $isCurrent = "Files";
         return view('dashboard.files', [
+            'dashboardTitle' => $dashboardTitle,
+            'isCurrent' => $isCurrent
+        ]
+    );
+    }
+
+    public function calendar()
+    {
+        $dashboardTitle = "Calendar";
+        $isCurrent = "calenadr";
+
+        return view('dashboard.calendar', [
             'dashboardTitle' => $dashboardTitle,
             'isCurrent' => $isCurrent
         ]
