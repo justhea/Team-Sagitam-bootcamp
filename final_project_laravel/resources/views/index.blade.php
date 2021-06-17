@@ -7,44 +7,34 @@
 @section('content')
 
 <main class="main-content">
-<div class="hero">
-				<!--
-				<video autoplay loop class="video-background">
-					<source src="Lawyer.mp4" type="video/mp4">
-				
-				</video>--> <!-- tanggalin ko muna for the meantime-->
-				
-							<div class="col-md-8">
-							<img id="backgrounder" src="images/backgrounder.jpg" alt="bda"> 
+	
+		     	<div class="col-md-8">			
+								<img id="backgrounder" src="images/backgrounder.jpg" alt="background">
 							</div>
-							<div class="col-md-4">
 							
-								<div class="hero-content">
-								<h1 class="hero-title" style="font-size:40px;"><font face="Roboto">Justice In Words</font></h1>
-									<p class="redtext" style="font-size:20px;">BENEDICTO LAW, JUSTICE IS WHAT WE CREATE EVERYDAY. </p>
-									<p class="redtext" style="font-size:20px;">WITH DEEPER UNDERSTANDING, GET BETTER SOLUTIONS.</p>
-<<<<<<< Updated upstream
-=======
-									<p class="redtext" style="font-size:20px;">SIGN UP TODAY, ITS FREE!</p>
-									<a href="{{route('login.login')}}" class="button">Login</a>
->>>>>>> Stashed changes
-
-								</div>
-							</div>
+						    <div class="col-md-4">
+					
+								<h1 class="hero-title" style="font-size:43px; text-align: center;">Justice In Words</h1>
+								<p class="redtext" style="font-size:23px; color: white; text-align: center;">In Benedicto Law,</p>
+								<p class="redtext" style="font-size:23px; color: white; text-align: center;">Justice is What We Create Everyday. </p>
+								<p class="redtext" style="font-size:23px; color: white; text-align: center;">With Deeper Understanding,</p>
+								<p class="redtext" style="font-size:23px; color: white; text-align: center;">Get Better Solutions.</p>
+								<p class="redtext" style="font-size:20px; color: white; text-align: center;">Sign up today, It's Free!</p>
+								<div id="try">
+								<a href="{{route('login.login')}}" class="button">Sign-up</a>
+								</div>		
+						    </div>
 						</div>
-					</div>
-				</div> <!-- .hero-slider -->
-				
-				<div id="ret" class="fullwidth-block" data-bg-color="#111113">
+				<!-- .hero-slider -->
+				<div class="fullwidthblock" data-bg-color="#111113">
 					<div class="container">
+						
 						<div class="rows">
-							<div class="col-md-8">
-								<h2 style="font-size:50px;">About The Benedicto Law</h2>
+							<div class="cole">
+							<h2 style="font-size:50px; text-align: center;">About The Benedicto Law</h2>
 								
 							</div>
-							<div class="col-md-4">
-								
-							</div>
+							
 						</div> <!-- .row -->
 					</div> <!-- .container -->
 				</div> <!-- .fullwidth-block -->
@@ -92,15 +82,16 @@
 								</div>
 							</div>
 						</div>
+				
 						
 						
 					</div>
 				</div>
 
-			</main> <!-- .main-content -->
+            </main> <!-- .main-content -->
 
 @endsection
 
 @push('script')
-    <
+    
 @endpush
