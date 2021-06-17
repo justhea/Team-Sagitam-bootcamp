@@ -15,7 +15,7 @@
 				</video>--> <!-- tanggalin ko muna for the meantime-->
 				
 							<div class="col-md-8">
-							<img src="images/backgrounder.jpg" alt="bda" height="470" width="1315"> 
+							<img id="backgrounder" src="images/backgrounder.jpg" alt="bda"> 
 							</div>
 							<div class="col-md-4">
 							
