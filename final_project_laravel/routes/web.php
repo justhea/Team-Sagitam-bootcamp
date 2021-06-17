@@ -16,7 +16,8 @@ use App\Http\Controllers\{
     DashboardController,
     HomeController,
     LoginController,
-    RegisterController
+    RegisterController,
+    FileuploadController
 };
 
 Route::middleware(['guest'])->group(function() {
@@ -38,5 +39,6 @@ Route::middleware(['auth'])->group(function() {
     Route::get('/profile', [DashboardController::class, 'profile'])->name('dashboard.profile');
     Route::get('/journal', [DashboardController::class, 'journal'])->name('dashboard.journal');
     Route::get('/files', [DashboardController::class, 'files'])->name('dashboard.files');
+    Route::post('/files', [FileuploadController::class, 'files'])->name('dashboard.files');
     Route::get('/directory', [DashboardController::class, 'directory'])->name('dashboard.directory');
 });
