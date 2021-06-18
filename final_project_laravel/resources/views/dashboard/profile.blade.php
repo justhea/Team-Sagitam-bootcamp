@@ -59,7 +59,7 @@
             </span>
             <span class="text">Delete Account</span>
         </a>
-        <a href="{{route('dashboard.profile-edit')}}" class="btn btn-info">
+        <a href="#" class="btn btn-info">
             <span class="icon text-white-50">
             </span>
                 <i class="fas fa-user-edit"></i>
@@ -80,7 +80,7 @@
                 <div class="modal-body">Select the delete button to continue</div>
                 <div class="modal-footer">
                     <button class="btn btn-primary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-secondary" href="#">Delete</a>
+                    <button class="btn btn-secondary"type="button" href="/delete">Delete</a>
                 </div>
             </div>
         </div>

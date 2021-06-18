@@ -76,14 +76,17 @@ class DashboardController extends Controller
         ]
     );
     }
-    public function edit(){
-        $dashboardTitle = "Profile-Edit";
-        $isCurrent = "Profile-Edit";
-        $users = User::all();
-        return view('/profile-edit', [
-            'dashboardTitle' => $dashboardTitle,
-            'isCurrent' => $isCurrent,
-            'users' => $users
-        ]);
+    
+    public function delete(){
+        $user = \User::find(Auth::user()->id);
+
+        Auth::logout();
+    
+        if ($user->delete()) {
+    
+             return Redirect::route('/')->with('global', 'Your account has been deleted!');
+        }
+    
     }
+    
 }
