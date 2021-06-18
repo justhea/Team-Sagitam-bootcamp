@@ -22,6 +22,11 @@
 								<p class="redtext" style="font-size:20px; color: white; text-align: center;">Sign up today, It's Free!</p>
 								<div id="try">
 								<a href="{{route('login.login')}}" class="button">Sign-up</a>
+
+
+								
+
+
 								</div>		
 						    </div>
 						</div>
