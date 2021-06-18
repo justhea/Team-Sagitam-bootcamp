@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Auth;
 use Illuminate\Http\Request;
+use Datables;
 
 class DashboardController extends Controller
 {
@@ -32,7 +33,7 @@ class DashboardController extends Controller
     }
     public function directory()
     {
-        $dashboardTitle = "Directory";
+       $dashboardTitle = "Directory";
     $isCurrent = "Directory";
     $users = User::all();
     return view('dashboard.directory', [
@@ -40,6 +41,8 @@ class DashboardController extends Controller
         'isCurrent' => $isCurrent,
         'users' => $users
     ]);
+
+    
     }
     public function journal()
     {
