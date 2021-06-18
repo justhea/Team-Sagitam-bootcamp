@@ -70,7 +70,7 @@
                                     </div>
                                     <div class="form-group">
                                     <label for="contact_no" class="form-label">Contact Number</label>
-                                        <input type="number" min="10" max="11" class="form-control form-control-user" id="contact_no"
+                                        <input type="number" class="form-control form-control-user" id="contact_no"
                                             placeholder="Contact Number" name="contact_no" required>
                                     </div>
                                   
