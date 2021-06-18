@@ -79,5 +79,5 @@
 @endsection
 
 @push('script')
-    <
+    
 @endpush

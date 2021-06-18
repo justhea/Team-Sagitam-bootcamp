@@ -59,5 +59,5 @@ Public Attorney's Office), he retired from government service and tried his luck
 @endsection
 
 @push('script')
-    <
+    
 @endpush
