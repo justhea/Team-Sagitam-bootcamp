@@ -80,7 +80,9 @@
                 <div class="modal-body">Select the delete button to continue</div>
                 <div class="modal-footer">
                     <button class="btn btn-primary" type="button" data-dismiss="modal">Cancel</button>
+                    <form action="/delete" method="POST">
                     <button class="btn btn-secondary"type="button" href="/delete">Delete</a>
+                    </form>
                 </div>
             </div>
         </div>
