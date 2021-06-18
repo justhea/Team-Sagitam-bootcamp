@@ -76,4 +76,14 @@ class DashboardController extends Controller
         ]
     );
     }
+    public function edit(){
+        $dashboardTitle = "Profile-Edit";
+        $isCurrent = "Profile-Edit";
+        $users = User::all();
+        return view('/profile-edit', [
+            'dashboardTitle' => $dashboardTitle,
+            'isCurrent' => $isCurrent,
+            'users' => $users
+        ]);
+    }
 }
