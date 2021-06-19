@@ -15,34 +15,49 @@
    
 </div>
 <div class="card shadow mb-4">
-            <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">Profile Information</h6>
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Profile Information</h6>
+    </div>
+    <div class="card-body" >
+        <div class="profile-card">
+            <div class="image-container">
+                <img src="http://localhost:8000/storage/{{ auth()->user()->profile_image }}">
+                <div class="title-name">
+                <h2 class="user-profile">{{ auth()->user()->name }}</h2>
+                </div>
             </div>
-            <div class="card-body" >
-                <div class="profile-card">
-                    <div class="image-container">
-                        <img src="http://localhost:8000/storage/{{ auth()->user()->profile_image }}">
-                        <div class="title-name">
-                        <h2 class="user-profile">{{ auth()->user()->name }}</h2>
-                        </div>
-                    </div>
-                    <div class="user-container">
-                        <p><i class="fas fa-envelope"> Email: {{ auth()->user()->email }}</i><p>
-                        <p><i class="fas fa-phone-square-alt"> Contact Number: {{ auth()->user()->contact_no }}</i></p>
-                        <p><i class="fas fa-birthday-cake"> Birthdate: {{ auth()->user()->bdate }}</i></p>
-                        <p><i class="fas fa-calendar-plus"> Account created at: {{ auth()->user()->created_at }}</i></p>
-                     
-                        <hr>
-                        <p>Account Completion</p>
-                        <div style="background-color: #97D0E3; border-radius: 16px;">
-                            <div class="status-progress" style="width: 100%;  padding: 0.1em 16px; border-radius: 16px; text-align: center; color: #fff; background-color: #1090FF;">
-                                100%
-                            </div>
-                        </div>
+            <div class="user-container">
+                <p><i class="fas fa-envelope"> Email: {{ auth()->user()->email }}</i><p>
+                <p><i class="fas fa-phone-square-alt"> Contact Number: {{ auth()->user()->contact_no }}</i></p>
+                <p><i class="fas fa-birthday-cake"> Birthdate: {{ auth()->user()->bdate }}</i></p>
+                <p><i class="fas fa-calendar-plus"> Account created at: {{ auth()->user()->created_at }}</i></p>
+                
+                <hr>
+                <p>Account Completion</p>
+                <div style="background-color: #97D0E3; border-radius: 16px;">
+                    <div class="status-progress" style="width: 100%;  padding: 0.1em 16px; border-radius: 16px; text-align: center; color: #fff; background-color: #1090FF;">
+                        100%
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Documents</h6>
+    </div>
+    <div class="card-body" >
+        <div class="profile-card">
+            <ul>
+                @foreach($fileuploads as $fileupload)
+                    <li><a href="http://localhost:8000/storage/docs/{{ $fileupload->filename }}" download>{{ $fileupload->filename }}</a></li>
+                @endforeach
+            </ul>
+        </div>
+    </div>
+</div>
 
 
         <div class="col-lg-6">
@@ -59,7 +74,7 @@
             </span>
             <span class="text">Delete Account</span>
         </a>
-        <a href="#" class="btn btn-info">
+        <a href="{{ route('dashboard.editProfile') }}" class="btn btn-info">
             <span class="icon text-white-50">
             </span>
                 <i class="fas fa-user-edit"></i>

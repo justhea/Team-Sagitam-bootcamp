@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use Auth;
 use App\Models\Fileupload;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class FileuploadController extends Controller
 {
@@ -39,10 +41,19 @@ class FileuploadController extends Controller
         $filename = $file->getClientOriginalName();
         $filename = time(). '.' .$filename;
     
-        $path = $file->storeAs('public/docs', $filename);  $path=\Storage::disk('docs')->url($filename);
+        $path = Storage::disk('docs')
+            ->putFileAs(
+                "/" . Auth::user()->id,
+                $file,
+                $filename
+            );
     
-        Fileupload::create(['filename' => $path]);
+        Fileupload::create([
+            'user_id' => Auth::user()->id,
+            'filename' => $path
+        ]);
 
+        return redirect(route('dashboard.profile'));
     }
 
     /**
