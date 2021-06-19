@@ -29,7 +29,7 @@
             var calendarE1 = document.getElementById('calendar-lab');
             var calendarLab = new FullCalendar.Calendar(calendarE1, {
                 headerToolbar: {
-                    start: 'title',
+                    start: 'title, addEventButton',
                     center: 'dayGridMonth, timeGridWeek, timeGridDay ',
                     end: 'today prev,next',
                 },
@@ -55,6 +55,39 @@
                     },
                     /* ... */
                 ],
+                customButtons: {
+                    addEventButton: {
+                        text: 'add event...',
+                        click: function() {
+                            var startdateStr = prompt('Enter start datetime in YYYY-MM-DD HH:MM:SS format');
+                            var enddateStr = prompt('Enter end datetime in YYYY-MM-DD HH:MM:SS format');
+                            var title = prompt('Enter event title');
+                            /* var sdate = new Date(startdateStr + 'T00:00:00'); // will be in local time
+                            var edate = new Date(enddateStr + 'T00:00:00'); // will be in local time */
+
+                            calendarLab.addEvent({
+                                title: title,
+                                start: startdateStr,
+                                end: enddateStr
+                            });
+
+                            // call api to save in database
+                            // via ajax
+
+                            /* 
+                            if (!isNaN(sdate.valueOf()) || !isNaN(edate.valueOf())) { // valid?
+                                calendarLab.addEvent({
+                                    title: title,
+                                    start: startdateStr,
+                                    end: enddateStr
+                                });
+                                alert('Great. Now, update your database...');
+                            } else {
+                                alert('Invalid date.');
+                            } */
+                        }
+                    }
+                }
             });
             calendarLab.render();
         });
