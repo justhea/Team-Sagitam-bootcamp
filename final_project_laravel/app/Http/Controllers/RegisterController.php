@@ -33,7 +33,7 @@ class RegisterController extends Controller
         'user_type' => 'admin',
         'bdate' => $request->get('bdate'),
         'contact_no' => $request->get('contact_no'),
-        'profile_image' => $request->file('profile_image') ? Storage::disk('public')->put('images', $request->profile_image) : 'images/default.jpg',
+        'profile_image' => $request->file('profile_image') ? \Storage::disk('public')->put('images', $request->profile_image) : 'images/default.jpg',
         //...
       ]);
       return redirect(route('login.login', ['registration' => 1]));
