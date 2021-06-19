@@ -29,6 +29,13 @@ return [
     */
 
     'disks' => [
+        
+        'docs' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/docs'),
+            'url' => env('APP_URL').'/storage/docs',
+            'visibility' => 'public',
+        ],
 
         'local' => [
             'driver' => 'local',

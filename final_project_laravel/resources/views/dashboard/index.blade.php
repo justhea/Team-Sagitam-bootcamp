@@ -38,6 +38,7 @@
                             <div class="status-progress" style="width: 80%;  padding: 0.1em 16px; border-radius: 16px; text-align: center; color: #fff; background-color: #1090FF;">
                                 80%
                             </div>
+                            
                         </div>
                     </div>
                 </div>

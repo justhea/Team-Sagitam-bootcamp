@@ -4,7 +4,7 @@
 
 
 @endpush
-
+<h1> JOURNAL FOR USER HERE </h1>
 
 
 @section('content')

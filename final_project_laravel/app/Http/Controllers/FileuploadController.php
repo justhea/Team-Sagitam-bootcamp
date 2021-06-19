@@ -14,7 +14,7 @@ class FileuploadController extends Controller
      */
     public function index()
     {
-        //
+        return view('dashboard.files');
     }
 
     /**
@@ -39,7 +39,7 @@ class FileuploadController extends Controller
         $filename = $file->getClientOriginalName();
         $filename = time(). '.' .$filename;
     
-        $path = $file->storeAs('public/docs', $filename);
+        $path = $file->storeAs('public/docs', $filename);  $path=\Storage::disk('docs')->url($filename);
     
         Fileupload::create(['filename' => $path]);
 
@@ -53,7 +53,7 @@ class FileuploadController extends Controller
      */
     public function show(Fileupload $fileupload)
     {
-        //
+      
     }
 
     /**

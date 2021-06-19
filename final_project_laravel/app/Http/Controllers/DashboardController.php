@@ -78,13 +78,13 @@ class DashboardController extends Controller
     }
     
     public function delete(){
-        $user = \User::find(Auth::user()->id);
-
+      $user = Auth::user();
         Auth::logout();
+        
     
         if ($user->delete()) {
     
-             return Redirect::route('/')->with('global', 'Your account has been deleted!');
+             return redirect(route('home.index'));
         }
     
     }
