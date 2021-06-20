@@ -63,7 +63,7 @@ img.align-right {
         <div class="profile-card">
         <div class="card shadow mb-4">
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">Profile Information</h6>
+        <h6 class="m-0 font-weight-bold text-primary">Journal</h6>
     </div>
 <!-- partial:index.partial.html -->
 <textarea id="full-featured-non-premium"><p style="text-align: center; font-size: 15px;"><img title="TinyMCE Logo" src="//www.tiny.cloud/images/glyph-tinymce@2x.png" alt="TinyMCE Logo" width="110" height="97" />
@@ -77,6 +77,7 @@ img.align-right {
 </textarea>
 
        </div>
+       Note: Download your file then upload at the<a href="{{route('fileupload.index')}}"> File </a> page.
        </div>
        </div>
 
