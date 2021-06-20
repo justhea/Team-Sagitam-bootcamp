@@ -190,8 +190,8 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <div class="small text-gray-500">December 12, 2019</div>
-                                        <span class="font-weight-bold">A new monthly report is ready to download!</span>
+                                        <div class="small text-gray-500">June 19, 2021</div>
+                                        <span class="font-weight-bold">Calendar has been Updated</span>
                                     </div>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -201,7 +201,7 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <div class="small text-gray-500">December 7, 2019</div>
+                                        <div class="small text-gray-500">June 20, 2021</div>
                                         Files has been Recieved!
                                     </div>
                                 </a>
@@ -212,8 +212,8 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <div class="small text-gray-500">December 2, 2019</div>
-                                        When will our next meeting be?
+                                        <div class="small text-gray-500">June 21, 2021</div>
+                                        Presentation
                                     </div>
                                 </a>
                                 <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
