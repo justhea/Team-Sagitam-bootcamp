@@ -42,7 +42,7 @@ Route::middleware(['auth'])->group(function() {
     Route::post('/profile', [DashboardController::class, 'updateProfile'])->name('dashboard.updateProfile');
 
     Route::get('/journal', [DashboardController::class, 'journal'])->name('dashboard.journal');
-    Route::get('/files', [DashboardController::class, 'index'])->name('dashboard.files');
+    Route::get('/files', [FileuploadController::class, 'index'])->name('fileupload.index');
     Route::post('/files', [FileuploadController::class, 'files'])->name('fileupload.files');
     Route::get('/directory', [DashboardController::class, 'directory'])->name('dashboard.directory');
     Route::get('/calendar', [DashboardController::class, 'calendar'])->name('dashboard.calendar');
