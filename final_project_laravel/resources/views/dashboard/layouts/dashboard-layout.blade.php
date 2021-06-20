@@ -80,7 +80,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Directories</h6>
                         <a class="collapse-item" href="{{route('dashboard.directory')}}">Directory </a>
-                        <a class="collapse-item" href="{{route('dashboard.files')}}">Files </a>
+                        <a class="collapse-item" href="{{route('dashboard.index')}}">Files </a>
                     </div>
                 </div>
             </li>

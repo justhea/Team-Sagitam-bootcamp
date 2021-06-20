@@ -11,7 +11,7 @@
 
 
  <div class="d-flex vw-100 vh-100 justify-content-center align-items-center">
-        <form method="POST" enctype="multipart/form-data" action="{{route('dashboard.files')}}">
+        <form method="POST" enctype="multipart/form-data" action="{{route('fileupload.files')}}">
             @csrf
                 <div class="form-group">
                   <label for="exampleFormControlFile1">Example file input</label>
