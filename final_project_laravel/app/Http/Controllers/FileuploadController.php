@@ -16,7 +16,12 @@ class FileuploadController extends Controller
      */
     public function index()
     {
-        return view('dashboard.files');
+        $dashboardTitle = "Files";
+        $isCurrent = "Files";
+        return view('dashboard.files', [
+            'dashboardTitle' => $dashboardTitle,
+            'isCurrent' => $isCurrent
+        ]);
     }
 
     /**
