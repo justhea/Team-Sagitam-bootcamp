@@ -186,7 +186,7 @@
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
                                         <div class="icon-circle bg-gradient-dark">
-                                            <i class="fas fa-file-alt text-white"></i>
+                                            <i class="far fa-calendar-check"></i>
                                         </div>
                                     </div>
                                     <div>
@@ -197,7 +197,7 @@
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
                                         <div class="icon-circle bg-success">
-                                            <i class="fas fa-donate text-white"></i>
+                                            <i class="far fa-file"></i>
                                         </div>
                                     </div>
                                     <div>
@@ -208,7 +208,7 @@
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
                                         <div class="icon-circle bg-warning">
-                                            <i class="fas fa-exclamation-triangle text-white"></i>
+                                            <i class="fas fa-book"></i>
                                         </div>
                                     </div>
                                     <div>
