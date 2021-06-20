@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>{{$dashboardTitle ?? config(app.name)}}</title>
+    <title>{{ $dashboardTitle ?? "Lawfirm" }}</title>
     <link rel="shortcut icon" href="{{ asset('dashboard.png') }}" type="image/x-icon">
     <!-- Custom fonts for this template-->
     <link href="{{asset('dashboards/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
@@ -80,7 +80,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Directories</h6>
                         <a class="collapse-item" href="{{route('dashboard.directory')}}">Directory </a>
-                        <a class="collapse-item" href="{{route('dashboard.files')}}">Files </a>
+                        <a class="collapse-item" href="{{route('fileupload.files')}}">Files </a>
                     </div>
                 </div>
             </li>
