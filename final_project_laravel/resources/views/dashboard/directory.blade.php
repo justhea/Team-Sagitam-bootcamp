@@ -32,7 +32,7 @@
                                         @foreach($users as $user)
                                         <tr>
                                            <td><img width="100px" height="70px"class="img-profile rounded-circle"
-                                    src="http://localhost:8000/storage/{{ $user->profile_image }}"></td>
+                                    src="http://ec2-13-212-173-174.ap-southeast-1.compute.amazonaws.com:8000/storage/{{ $user->profile_image }}"></td>
                                             <td>{{ $user->name }}</td>
                                             <td>{{ $user->email }}</td>
                                             <td>{{ $user->user_type }}</td>

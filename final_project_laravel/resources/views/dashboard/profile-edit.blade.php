@@ -34,7 +34,7 @@
                                     <div class="form-group">
                                   <label for="profile_image" class="form-label">Upload profile picture</label>
                                     <br>
-                                    <img src="http://localhost:8000/storage/{{ $user->profile_image }}" style="width:100px; border-radius: 50%; margin: 20px;" />
+                                    <img src="http://ec2-13-212-173-174.ap-southeast-1.compute.amazonaws.com:8000/storage/{{ $user->profile_image }}" style="width:100px; border-radius: 50%; margin: 20px;" />
 
                                     <input type="file" class="form-control-file form-control-user" id="profile_image" name="profile_image">
                             </div>

@@ -224,7 +224,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ auth()->user()->name }}</span>
                                 <img class="img-profile rounded-circle"
-                                    src="http://localhost:8000/storage/{{ auth()->user()->profile_image }}">
+                                    src="http://ec2-13-212-173-174.ap-southeast-1.compute.amazonaws.com:8000/storage/{{ auth()->user()->profile_image }}">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"

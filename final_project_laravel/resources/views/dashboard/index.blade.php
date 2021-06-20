@@ -23,7 +23,7 @@
             <div class="card-body" >
                 <div class="profile-card">
                     <div class="image-container">
-                        <img src="http://localhost:8000/storage/{{ auth()->user()->profile_image }}">
+                        <img src="http://ec2-13-212-173-174.ap-southeast-1.compute.amazonaws.com:8000/storage/{{ auth()->user()->profile_image }}">
                         <div class="title-name">
                         <h2 class="user-profile">{{ auth()->user()->name }}</h2>
                         </div>
