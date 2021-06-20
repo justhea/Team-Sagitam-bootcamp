@@ -27,6 +27,13 @@
         </div>
         </div>
 
+
+        <div class="card-body" >
+        <div class="profile-card">
+        Note: All files can be accessed in the <a href="{{route('dashboard.profile')}}"> Profile </a> page
+        </div>
+        </div>
+
 @endsection
 
 @push('script')
