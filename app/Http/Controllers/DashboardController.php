@@ -48,10 +48,10 @@ class DashboardController extends Controller
         $dashboardTitle = "Journal";
         $isCurrent = "Journal";
         return view('dashboard.journal', [
-            'dashboardTitle' => $dashboardTitle,
-            'isCurrent' => $isCurrent
-        ]
-    );
+                'dashboardTitle' => $dashboardTitle,
+                'isCurrent' => $isCurrent
+            ]
+        );
     }
     public function files()
     {
