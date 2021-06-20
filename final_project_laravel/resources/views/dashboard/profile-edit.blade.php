@@ -8,7 +8,9 @@
 
 
 @section('content')
-
+<div class="container-fluid">
+<div class="card-body" >
+        <div class="profile-card">
 
                             <form class="user" method="POST" action="{{ route('dashboard.updateProfile') }}" enctype="multipart/form-data">
                                 @csrf
@@ -48,6 +50,10 @@
                                 </div>
                                 <hr>
                             </form>
+
+                            </div>
+                            </div>
+                            </div>
 @endsection
 
 
