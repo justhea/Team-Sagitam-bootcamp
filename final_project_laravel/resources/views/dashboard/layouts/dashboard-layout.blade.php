@@ -19,6 +19,12 @@
 
     <!-- Custom styles for this template-->
     <link href="{{asset('dashboards/css/sb-admin-2.min.css')}}" rel="stylesheet">
+    <style>
+    #content > nav > ul > li.nav-item.dropdown.no-arrow.mx-1.show > div > h6{
+        background-color: #34363c;
+
+    }
+    </style>
 @stack('css')
 </head>
 
