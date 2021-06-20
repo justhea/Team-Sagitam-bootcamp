@@ -172,7 +172,7 @@
                                 <span class="badge badge-danger badge-counter">3+</span>
                             </a>
                             <!-- Dropdown - Alerts -->
-                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" 
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in bg-gradient-dark" 
                                 aria-labelledby="alertsDropdown">
                                 <h6 class="dropdown-header">
                                     Alerts Center
