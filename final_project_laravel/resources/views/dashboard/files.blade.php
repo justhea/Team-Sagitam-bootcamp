@@ -9,7 +9,11 @@
 
 @section('content')
 
-
+<div class="card-body" >
+        <div class="profile-card">
+        <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Uploads</h6>
+    </div>
  <div class="d-flex vw-100 vh-100 justify-content-center align-items-center">
         <form method="POST" enctype="multipart/form-data" action="{{route('fileupload.files')}}">
             @csrf
@@ -19,6 +23,8 @@
                 </div>
                 <div class="form-group"><button class="btn btn-success">Upload the file</button></div>
               </form>
+        </div>
+        </div>
         </div>
 
 @endsection
