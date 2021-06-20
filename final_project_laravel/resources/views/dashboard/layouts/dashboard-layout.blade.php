@@ -185,7 +185,7 @@
                                 </h6>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
-                                        <div class="icon-circle bg-gradient-dark">
+                                        <div class="icon-circle bg-gradient-info">
                                             <i class="far fa-calendar-check"></i>
                                         </div>
                                     </div>
@@ -196,7 +196,7 @@
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
-                                        <div class="icon-circle bg-success">
+                                        <div class="icon-circle bg-gradient-info">
                                             <i class="far fa-file"></i>
                                         </div>
                                     </div>
@@ -207,7 +207,7 @@
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
-                                        <div class="icon-circle bg-warning">
+                                        <div class="icon-circle bg-gradient-info">
                                             <i class="fas fa-book"></i>
                                         </div>
                                     </div>
