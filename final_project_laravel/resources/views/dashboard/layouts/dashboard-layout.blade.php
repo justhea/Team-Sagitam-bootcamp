@@ -202,7 +202,7 @@
                                     </div>
                                     <div>
                                         <div class="small text-gray-500">June 20, 2021</div>
-                                        Files has been Recieved!
+                                        Files has been Updated
                                     </div>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -213,7 +213,7 @@
                                     </div>
                                     <div>
                                         <div class="small text-gray-500">June 21, 2021</div>
-                                        Presentation
+                                        Journal has been Added
                                     </div>
                                 </a>
                                 <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
