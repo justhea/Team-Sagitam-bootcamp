@@ -23,7 +23,7 @@
                                     
                                         <label for="password" class="form-label">Password</label>
                                             <input type="password" class="form-control form-control-user"
-                                                id="password" placeholder="Password" name="password">
+                                                id="password" placeholder="Password" name="password" required>
                                     </div>
                                     <div class="form-group">
                                     <label for="contact_no" class="form-label">Contact Number</label>
