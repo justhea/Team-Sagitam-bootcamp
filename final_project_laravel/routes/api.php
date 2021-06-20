@@ -1,8 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -14,6 +11,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\{
+    EventController,
+};
+
+Route::middleware(['api'])->group(function() {
+    Route::get('/events', [EventController::class, 'getEvents'])->name('event.getEvents');
+    Route::post('/events', [EventController::class, 'addEvent'])->name('event.addEvent');
 });
