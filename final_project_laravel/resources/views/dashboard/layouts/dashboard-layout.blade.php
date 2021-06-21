@@ -183,44 +183,44 @@
                                 <h6 class="dropdown-header">
                                     Alerts Center
                                 </h6>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                <a class="dropdown-item d-flex align-items-center" href="{{route('dashboard.calendar')}}">
                                     <div class="mr-3">
                                         <div class="icon-circle bg-gradient-info">
                                             <i class="far fa-calendar-check"></i>
                                         </div>
                                     </div>
                                     <div>
-                                    <a href="{{route('dashboard.calendar')}}">
+                                 
                                         <div class="small text-gray-500">June 19, 2021</div>
                                         <span class="font-weight-bold">Calendar has been Updated</span>
                                     </div>
-                                    </a>
+                                   
                                 </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                <a class="dropdown-item d-flex align-items-center" href="{{route('fileupload.files')}}">
                                     <div class="mr-3">
                                         <div class="icon-circle bg-gradient-info">
                                             <i class="far fa-file"></i>
                                         </div>
                                     </div>
                                     <div>
-                                    <a href="{{route('fileupload.files')}}">
+                               
                                         <div class="small text-gray-500">June 20, 2021</div>
                                         Files has been Updated
                                     </div>
-                                    </a>
+                                  
                                 </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                <a class="dropdown-item d-flex align-items-center" href="{{route('dashboard.journal')}}">
                                     <div class="mr-3">
                                         <div class="icon-circle bg-gradient-info">
                                             <i class="fas fa-book"></i>
                                         </div>
                                     </div>
                                     <div>
-                                    <a href="{{route('dashboard.journal')}}">
+                                 
                                         <div class="small text-gray-500">June 21, 2021</div>
                                         Journal has been Added
                                     </div>
-                                    </a>
+                                    
                                 </a>
                                
                             </div>
