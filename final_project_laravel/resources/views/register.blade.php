@@ -22,7 +22,7 @@
 
     <style>
         .new-bg-register-image {
-             background: url("{{asset('dashboards/img/benedicto.png')}}");
+             background: url("{{asset('dashboards/img/Benedicto.jpg')}}");
              background-position: center;
              background-size: cover;
         }
