@@ -9,7 +9,7 @@
 <main class="main-content">
 	
 		     	<div class="col-md-8">			
-								<img id="backgrounder" src="images/backgrounder.png" alt="background">
+								<img id="backgrounder" src="images/backgrounder.jpg" alt="background">
 							</div>
 							
 						    <div class="col-md-4">
