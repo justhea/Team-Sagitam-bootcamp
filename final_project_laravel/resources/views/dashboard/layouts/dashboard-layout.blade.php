@@ -190,9 +190,11 @@
                                         </div>
                                     </div>
                                     <div>
+                                    <a href="{{route('dashboard.calendar')}}">
                                         <div class="small text-gray-500">June 19, 2021</div>
                                         <span class="font-weight-bold">Calendar has been Updated</span>
                                     </div>
+                                    </a>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
@@ -201,9 +203,11 @@
                                         </div>
                                     </div>
                                     <div>
+                                    <a href="{{route('fileupload.files')}}">
                                         <div class="small text-gray-500">June 20, 2021</div>
                                         Files has been Updated
                                     </div>
+                                    </a>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
@@ -212,9 +216,11 @@
                                         </div>
                                     </div>
                                     <div>
+                                    <a href="{{route('dashboard.journal')}}">
                                         <div class="small text-gray-500">June 21, 2021</div>
                                         Journal has been Added
                                     </div>
+                                    </a>
                                 </a>
                                
                             </div>
