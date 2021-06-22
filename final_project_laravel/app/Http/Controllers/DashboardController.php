@@ -34,7 +34,6 @@ class DashboardController extends Controller
         $users = User::all();
 
         $fileuploads = Fileupload::where('user_id', Auth::user()->id)
-            ->limit(10)
             ->latest()
             ->get();
 
