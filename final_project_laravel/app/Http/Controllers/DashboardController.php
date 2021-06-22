@@ -18,10 +18,12 @@ class DashboardController extends Controller
     {
         $dashboardTitle = "Dashboard";
         $isCurrent = "dashboard";
-
+        $filesUploadCount = Fileupload::where('user_id', Auth::user()->id)
+        ->count();
         return view('dashboard.index', [
             'dashboardTitle' => $dashboardTitle,
-            'isCurrent' => $isCurrent
+            'isCurrent' => $isCurrent,
+            'filesUploadCount' => $filesUploadCount
         ]
     );
     }
