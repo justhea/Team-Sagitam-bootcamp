@@ -92,6 +92,7 @@
                             </form>
                             <hr>
                             <div class="text-center">
+                            <a class="small" href="https://www.termsfeed.com/live/c89195a7-8396-4355-9b95-a2b0808f3d05">Privacy Policy</a><br>
                                 <a class="small" href="{{route('login.login')}}">Already have an account? Login!</a>
                             </div>
                         </div>
